@@ -2,7 +2,11 @@ name: Run at 6:14 PM UTC
 
 on:
   schedule:
-    - cron: '15 18 * * *'  # Runs at 6:14 PM UTC every day
+    - cron: '15 18 * * *'
+    
+  push:
+    branches:
+    - main # Runs at 6:14 PM UTC every day
 
 jobs:
   run_at_6_14:
