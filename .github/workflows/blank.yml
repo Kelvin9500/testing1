@@ -2,7 +2,7 @@ name: Run at 6:14 PM UTC
 
 on:
   schedule:
-    - cron: '20 11 * * *'
+    - cron: '20 10 * * *'
     
   push:
     branches:
